@@ -25,6 +25,7 @@ function startTimer() {
             updateTimer();
         }
     }, 1000)
+    startPom.disabled = true;
 };
 
 function stopTimer() {
