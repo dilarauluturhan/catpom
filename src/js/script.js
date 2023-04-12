@@ -36,6 +36,7 @@ function resetTimer() {
     clearInterval(interval);
     timeLeft = 1500;
     updateTimer();
+    startPom.disabled = false;
 };
 
 startPom.addEventListener("click", startTimer);
