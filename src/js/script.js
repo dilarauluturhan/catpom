@@ -30,6 +30,7 @@ function startTimer() {
 
 function stopTimer() {
     clearInterval(interval);
+    startPom.disabled = false;
 };
 
 function resetTimer() {
